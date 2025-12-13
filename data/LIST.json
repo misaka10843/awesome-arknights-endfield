@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Awesome Arknights Endfield",
+    "description": {
+      "en-US": "This entry is reserved and should not be used."
+    },
+    "category": "Uncategorized",
+    "tags": [],
+    "id": 0,
+    "addedAt": "2025-12-12",
+    "openSource": true
+  },
+  {
+    "name": "Talos Pioneers",
+    "description": {
+      "en-US": "Talos Pioneers is a community resource for Arknights: Endfield, designed to help Endministrators share their Automated Industry Complex (AIC) blueprints with each other.",
+      "zh-CN": "Talos Pioneers 是一个正在开发中的《明日方舟：终末地》社区资源项目，旨在为管理员们（Endministrators）提供相互分享集成工业系统（AIC）蓝图的平台。"
+    },
+    "website": [
+      {
+        "title": "Home Page",
+        "url": "https://talospioneers.com/"
+      }
+    ],
+    "author": {
+      "name": "Talos Pioneers",
+      "url": "https://github.com/Talos-Pioneers/"
+    },
+    "category": "Auxiliary Tools",
+    "tags": [
+      "Blueprints",
+      "Community"
+    ],
+    "id": 1,
+    "addedAt": "2025-12-12",
+    "openSource": false
+  },
+  {
+    "name": "Terra-Online/Atlos",
+    "description": {
+      "en-US": "Online interactive map for Arknights: Endfield.",
+      "zh-CN": "终末地互动地图。"
+    },
+    "repository": "https://github.com/Terra-Online/Atlos",
+    "website": [
+      {
+        "title": "Home Page",
+        "url": "https://opendfieldmap.cn/"
+      }
+    ],
+    "author": {
+      "name": "Terra-Online",
+      "url": "https://github.com/Terra-Online"
+    },
+    "category": "General Websites",
+    "tags": [
+      "Map"
+    ],
+    "id": 2,
+    "addedAt": "2025-12-12",
+    "openSource": true,
+    "license": "GNU Affero General Public License v3.0"
+  },
+  {
+    "name": "JamboChen/endfield-tool",
+    "description": {
+      "en-US": "Production calculator and factory planner for Arknights: Endfield.",
+      "zh-CN": "明日方舟终末地工厂计算器。它帮助玩家规划和优化资源生产：建造设施、制作物品、管理配方，并计算所需原材料及生产时间。"
+    },
+    "repository": "https://github.com/JamboChen/endfield-tool",
+    "website": [
+      {
+        "title": "GitHub Pages",
+        "url": "https://jambochen.github.io/endfield-tool/"
+      }
+    ],
+    "author": {
+      "name": "JamboChen",
+      "url": "https://github.com/JamboChen"
+    },
+    "category": "Materials & Resources",
+    "tags": [
+      "Calculator",
+      "Factory"
+    ],
+    "id": 3,
+    "addedAt": "2025-12-12",
+    "openSource": true
+  },
+  {
+    "name": "ENDFIELD MAP",
+    "description": {
+      "en-US": "Interactive Resource Map for Arknights: Endfield.",
+      "zh-CN": "终末地地图资源查询。"
+    },
+    "website": [
+      {
+        "title": "Home Page",
+        "url": "https://www.zmdmap.com/"
+      }
+    ],
+    "category": "General Websites",
+    "tags": [
+      "Map"
+    ],
+    "id": 4,
+    "addedAt": "2025-12-13",
+    "openSource": false
+  },
+  {
+    "name": "Lieyuan621/Endaxis",
+    "description": {
+      "en-US": "Endfield timeline editor.",
+      "zh-CN": "基于 Web 专为《明日方舟：终末地》设计的可视化时间轴编辑工具。"
+    },
+    "repository": "https://github.com/Lieyuan621/Endaxis",
+    "website": [
+      {
+        "title": "Home Page",
+        "url": "https://lieyuan.top/Endaxis/"
+      }
+    ],
+    "author": {
+      "name": "Lieyuan621",
+      "url": "https://github.com/Lieyuan621"
+    },
+    "category": "Auxiliary Tools",
+    "tags": [
+      "Battle"
+    ],
+    "id": 5,
+    "addedAt": "2025-12-13",
+    "openSource": true
+  },
+  {
+    "name": "HetmesAskalana/efsim",
+    "description": {
+      "en-US": "Endfield originium circuit repair calculator.",
+      "zh-CN": "终末地源石电路修复计算器。"
+    },
+    "repository": "https://github.com/HetmesAskalana/efsim",
+    "website": [
+      {
+        "title": "Home Page",
+        "url": "https://efsim.unacas.com/"
+      },
+      {
+        "title": "GitHub Pages",
+        "url": "https://hetmesaskalana.github.io/efsim/"
+      }
+    ],
+    "author": {
+      "name": "HetmesAskalana",
+      "url": "https://github.com/HetmesAskalana"
+    },
+    "category": "Auxiliary Tools",
+    "tags": [
+      "Originium circuit repairing"
+    ],
+    "id": 6,
+    "addedAt": "2025-12-13",
+    "openSource": true
+  },
+  {
+    "name": "Arknights-yituliu/ef-frontend-v1",
+    "description": {
+      "en-US": "The frontend interface of the \"一图流\" (interactive resource overview) project.",
+      "zh-CN": "基于 Nuxt 4.x 开发的《明日方舟：终末地》一图流网站。"
+    },
+    "repository": "https://github.com/Arknights-yituliu/ef-frontend-v1",
+    "website": [
+      {
+        "title": "Home Page",
+        "url": "https://ef.yituliu.cn/"
+      },
+      {
+        "title": "GitHub Pages",
+        "url": "https://arknights-yituliu.github.io/ef-frontend-v1/"
+      }
+    ],
+    "author": {
+      "name": "Arknights-yituliu",
+      "url": "https://github.com/Arknights-yituliu"
+    },
+    "category": "Materials & Resources",
+    "tags": [
+      "Overview yituliu"
+    ],
+    "id": 7,
+    "addedAt": "2025-12-13",
+    "openSource": true
+  }
+]

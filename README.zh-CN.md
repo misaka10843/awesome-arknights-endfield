@@ -2,18 +2,20 @@
   <img width="500" src="./assets/banner.svg" alt="The banner for Awesome Arknights Endfield." />
 </div>
 
+<br />
+
 <h2 align="center">Awesome Arknights Endfield</h2>
 
 <p align="center">
   <a href="https://github.com/sindresorhus/awesome">
-    <img src="https://awesome.re/badge.svg" alt="Awesome" />
+    <img src="https://awesome.re/badge.svg" alt="Awesome badge" />
   </a>
 
   <a href="./LICENSE.md">
     <img src="https://img.shields.io/github/license/palmcivet/awesome-arknights-endfield?label=License" alt="License" />
   </a>
 
-  <img src="https://img.shields.io/badge/Projects-10-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-7-blue" alt="Projects" />
 </p>
 
 [English](./README.md) | 简体中文
@@ -27,22 +29,19 @@
 ## 目录
 
 - [目录](#目录)
-- [在线网站](#在线网站)
-- [开源项目](#开源项目)
+- [列表](#列表)
+- [贡献](#贡献)
 - [徽标](#徽标)
 - [协议](#协议)
-- [版权说明](#版权说明)
+- [版权](#版权)
 
-## 在线网站
+## 列表
 
 - [Talos Pioneers](https://talospioneers.com/)
     - Talos Pioneers 是一个正在开发中的《明日方舟：终末地》社区资源项目，旨在为管理员们（Endministrators）提供相互分享集成工业系统（AIC）蓝图的平台。
     - [GitHub Organization](https://github.com/Talos-Pioneers)
 - [ENDFIELD MAP](https://www.zmdmap.com/)
     - 终末地地图资源查询。
-
-## 开源项目
-
 - [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)
     - [网站](https://opendfieldmap.cn/)
     - 终末地互动地图。
@@ -58,6 +57,12 @@
 - [Arknights-yituliu/ef-frontend-v1](https://github.com/Arknights-yituliu/ef-frontend-v1)
     - [网站](https://ef.yituliu.cn/) | [GitHub Pages](https://arknights-yituliu.github.io/ef-frontend-v1/)
     - 基于 Nuxt 4.x 开发的《明日方舟：终末地》一图流网站。
+
+## 贡献
+
+如果您发现了未收录在本列表的开源项目或者开源了自己的项目，无论是在开发中还是已归档，只要有价值，都可以被收录，欢迎 Issue、PR 或 Fork。
+
+更多详细步骤请参阅 [CONTRIBUTING.md](./CONTRIBUTING.md) 文件。
 
 ## 徽标
 
@@ -79,7 +84,7 @@
 
 - 源文件
 
-  直接下载并使用 [./assets/badge.svg](./assets/badge.svg) 文件
+  直接下载并使用 [badge.svg](./assets/badge.svg) 文件
 
 将会显示如下：
 
@@ -91,7 +96,7 @@
 
 本项目采用 MIT 许可证。详情请参阅 [LICENSE](./LICENSE.md) 文件。
 
-## 版权说明
+## 版权
 
 本项目仅用于收录《明日方舟：终末地《（Arknights: Endfield）相关的资源和开源项目，对所收录项目的有效性和合法性不作保证，用户须审慎使用本项目以及所收录项目，一切后果须自行承担，与本项目无关。
 

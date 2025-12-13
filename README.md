@@ -2,18 +2,20 @@
   <img width="500" src="./assets/banner.svg" alt="The banner for Awesome Arknights Endfield." />
 </div>
 
+<br />
+
 <h2 align="center">Awesome Arknights Endfield</h2>
 
 <p align="center">
   <a href="https://github.com/sindresorhus/awesome">
-    <img src="https://awesome.re/badge.svg" alt="Awesome" />
+    <img src="https://awesome.re/badge.svg" alt="Awesome badge" />
   </a>
 
   <a href="./LICENSE.md">
     <img src="https://img.shields.io/github/license/palmcivet/awesome-arknights-endfield?label=License" alt="License" />
   </a>
 
-  <img src="https://img.shields.io/badge/Projects-10-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-7-blue" alt="Projects" />
 </p>
 
 English | [简体中文](./README.zh-CN.md)
@@ -27,22 +29,19 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Tables of Contents
 
 - [Tables of Contents](#tables-of-contents)
-- [Online websites](#online-websites)
-- [Open source projects](#open-source-projects)
+- [List](#list)
+- [Contributing](#contributing)
 - [Badge](#badge)
 - [License](#license)
-- [Copyright Notice](#copyright-notice)
+- [Copyright](#copyright)
 
-## Online websites
+## List
 
 - [Talos Pioneers](https://talospioneers.com/)
     - Talos Pioneers is a community resource for Arknights: Endfield, designed to help Endministrators share their Automated Industry Complex (AIC) blueprints with each other.
     - [GitHub Organization](https://github.com/Talos-Pioneers)
 - [ENDFIELD MAP](https://www.zmdmap.com/)
     - Interactive Resource Map for Arknights: Endfield.
-
-## Open source projects
-
 - [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)
     - [Website](https://opendfieldmap.cn/)
     - Online interactive map for Arknights: Endfield.
@@ -58,6 +57,12 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 - [Arknights-yituliu/ef-frontend-v1](https://github.com/Arknights-yituliu/ef-frontend-v1)
     - [Website](https://ef.yituliu.cn/) | [GitHub Pages](https://arknights-yituliu.github.io/ef-frontend-v1/)
     - The frontend interface of the “一图流” (interactive resource overview) project.
+
+## Contributing
+
+If you discover an open-source project that is not yet included in this list, or if you have open-sourced your own project—whether it is under active development or already archived—as long as it provides value, it is welcome here. Issues, pull requests, and forks are all appreciated.
+
+For detailed contribution steps, please refer to [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Badge
 
@@ -79,7 +84,7 @@ If you maintain a project related to *Arknights: Endfield* and would like it to 
 
 - Source File
 
-  Download and use the [./assets/badge.svg](./assets/badge.svg) file directly.
+  Download and use the [badge.svg](./assets/badge.svg) file directly.
 
 The badge will appear as follows:
 
@@ -91,7 +96,7 @@ The badge will appear as follows:
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE.md) file for details.
 
-## Copyright Notice
+## Copyright
 
 This project is intended solely as a curated list of resources and open-source projects related to *Arknights: Endfield*. No guarantees are made regarding the validity or legality of the listed projects. Users are responsible for exercising due diligence when using this project and any resources listed herein. Any consequences arising from their use are borne solely by the user and are not related to this project.
 
