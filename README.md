@@ -38,28 +38,31 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## List
 
 - [Talos Pioneers](https://talospioneers.com/)
-    - Talos Pioneers is a community resource for Arknights: Endfield, designed to help Endministrators share their Automated Industry Complex (AIC) blueprints with each other.
-    - [GitHub Organization](https://github.com/Talos-Pioneers)
+  - Talos Pioneers is a community resource for Arknights: Endfield, designed to help Endministrators share their Automated Industry Complex (AIC) blueprints with each other.
+  - [GitHub Organization](https://github.com/Talos-Pioneers)
 - [ENDFIELD MAP](https://www.zmdmap.com/)
-    - Interactive Resource Map for Arknights: Endfield.
+  - Interactive Resource Map for Arknights: Endfield.
 - [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)
-    - [Website](https://opendfieldmap.cn/)
-    - Online interactive map for Arknights: Endfield.
+  - [Website](https://opendfieldmap.cn/)
+  - Online interactive map for Arknights: Endfield.
 - [JamboChen/endfield-tool](https://github.com/JamboChen/endfield-tool)
-    - [Website](https://jambochen.github.io/endfield-tool/)
-    - Production calculator and factory planner for Arknights: Endfield.
+  - [Website](https://jambochen.github.io/endfield-tool/)
+  - Production calculator and factory planner for Arknights: Endfield.
 - [Lieyuan621/Endaxis](https://github.com/Lieyuan621/Endaxis)
-    - [Website](https://lieyuan.top/Endaxis/)
-    - Endfield timeline editor.
+  - [Website](https://lieyuan.top/Endaxis/)
+  - Endfield timeline editor.
 - [HetmesAskalana/efsim](https://github.com/HetmesAskalana/efsim)
-    - [Website](https://efsim.unacas.com/) | [GitHub Pages](https://hetmesaskalana.github.io/efsim/)
-    - Endfield originium circuit repair calculator.
+  - [Website](https://efsim.unacas.com/) | [GitHub Pages](https://hetmesaskalana.github.io/efsim/)
+  - Endfield originium circuit repair calculator.
 - [Arknights-yituliu/ef-frontend-v1](https://github.com/Arknights-yituliu/ef-frontend-v1)
-    - [Website](https://ef.yituliu.cn/) | [GitHub Pages](https://arknights-yituliu.github.io/ef-frontend-v1/)
-    - The frontend interface of the “一图流” (interactive resource overview) project.
+  - [Website](https://ef.yituliu.cn/) | [GitHub Pages](https://arknights-yituliu.github.io/ef-frontend-v1/)
+  - The frontend interface of the “一图流” (interactive resource overview) project.
 - [ChuwuYo/Endfield-Pomodoro](https://github.com/ChuwuYo/Endfield-Pomodoro)
-    - [Website](https://pomo.chuwu.top) | [Vercel](https://endfield-pomodoro-kc6a3886k-s1805948721s-projects.vercel.app/)
-    - A Pomodoro timer app with an Arknights: Endfield theme.
+  - [Website](https://pomo.chuwu.top) | [Vercel](https://endfield-pomodoro-kc6a3886k-s1805948721s-projects.vercel.app/)
+  - A Pomodoro timer app with an Arknights: Endfield theme.
+- [endfield-calc/factoriolab](https://github.com/endfield-calc/factoriolab)
+  - [网站](https://factory.ef.yituliu.cn/) | [GitHub Pages](https://endfield-calc.github.io/)
+  - Angular-based calculator for Arknights: Endfield
 
 ## Contributing
 

@@ -218,5 +218,34 @@
     "id": 8,
     "addedAt": "2025-12-13",
     "openSource": true
+  },
+  {
+    "name": "endfield-calc/factoriolab",
+    "description": {
+      "en-US": "Angular-based calculator for Arknights: Endfield",
+      "zh-CN": "终末地量化计算器"
+    },
+    "repository": "https://github.com/endfield-calc/factoriolab",
+    "website": [
+      {
+        "title": "Home Page",
+        "url": "https://factory.ef.yituliu.cn/"
+      },
+      {
+        "title": "GitHub Pages",
+        "url": "https://endfield-calc.github.io/factoriolab/"
+      }
+    ],
+    "author": {
+      "name": "endfield-calc",
+      "url": "https://github.com/endfield-calc"
+    },
+    "category": "Auxiliary Tools",
+    "tags": [
+      "Calculator"
+    ],
+    "id": 9,
+    "addedAt": "2025-12-29",
+    "openSource": true
   }
 ]

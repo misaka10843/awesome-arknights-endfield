@@ -38,28 +38,31 @@
 ## 列表
 
 - [Talos Pioneers](https://talospioneers.com/)
-    - Talos Pioneers 是一个正在开发中的《明日方舟：终末地》社区资源项目，旨在为管理员们（Endministrators）提供相互分享集成工业系统（AIC）蓝图的平台。
-    - [GitHub Organization](https://github.com/Talos-Pioneers)
+  - Talos Pioneers 是一个正在开发中的《明日方舟：终末地》社区资源项目，旨在为管理员们（Endministrators）提供相互分享集成工业系统（AIC）蓝图的平台。
+  - [GitHub Organization](https://github.com/Talos-Pioneers)
 - [ENDFIELD MAP](https://www.zmdmap.com/)
-    - 终末地地图资源查询。
+  - 终末地地图资源查询。
 - [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)
-    - [网站](https://opendfieldmap.cn/)
-    - 终末地互动地图。
+  - [网站](https://opendfieldmap.cn/)
+  - 终末地互动地图。
 - [JamboChen/endfield-tool](https://github.com/JamboChen/endfield-tool)
-    - [网站](https://jambochen.github.io/endfield-tool/)
-    - 明日方舟终末地工厂计算器。它帮助玩家规划和优化资源生产：建造设施、制作物品、管理配方，并计算所需原材料及生产时间。
+  - [网站](https://jambochen.github.io/endfield-tool/)
+  - 明日方舟终末地工厂计算器。它帮助玩家规划和优化资源生产：建造设施、制作物品、管理配方，并计算所需原材料及生产时间。
 - [Lieyuan621/Endaxis](https://github.com/Lieyuan621/Endaxis)
-    - [网站](https://lieyuan.top/Endaxis/)
-    - 基于 Web 专为《明日方舟：终末地》设计的可视化时间轴编辑工具。
+  - [网站](https://lieyuan.top/Endaxis/)
+  - 基于 Web 专为《明日方舟：终末地》设计的可视化时间轴编辑工具。
 - [HetmesAskalana/efsim](https://github.com/HetmesAskalana/efsim)
-    - [网站](https://efsim.unacas.com/) | [GitHub Pages](https://hetmesaskalana.github.io/efsim/)
-    - 终末地源石电路修复计算器。
+  - [网站](https://efsim.unacas.com/) | [GitHub Pages](https://hetmesaskalana.github.io/efsim/)
+  - 终末地源石电路修复计算器。
 - [Arknights-yituliu/ef-frontend-v1](https://github.com/Arknights-yituliu/ef-frontend-v1)
-    - [网站](https://ef.yituliu.cn/) | [GitHub Pages](https://arknights-yituliu.github.io/ef-frontend-v1/)
-    - 基于 Nuxt 4.x 开发的《明日方舟：终末地》一图流网站。
+  - [网站](https://ef.yituliu.cn/) | [GitHub Pages](https://arknights-yituliu.github.io/ef-frontend-v1/)
+  - 基于 Nuxt 4.x 开发的《明日方舟：终末地》一图流网站。
 - [ChuwuYo/Endfield-Pomodoro](https://github.com/ChuwuYo/Endfield-Pomodoro)
-    - [Website](https://pomo.chuwu.top) | [Vercel](https://endfield-pomodoro-kc6a3886k-s1805948721s-projects.vercel.app/)
-    - 一个融合 Cyber UI 和《终末地》风格的沉浸式 Web 番茄钟应用
+  - [Website](https://pomo.chuwu.top) | [Vercel](https://endfield-pomodoro-kc6a3886k-s1805948721s-projects.vercel.app/)
+  - 一个融合 Cyber UI 和《终末地》风格的沉浸式 Web 番茄钟应用
+- [endfield-calc/factoriolab](https://github.com/endfield-calc/factoriolab)
+  - [网站](https://factory.ef.yituliu.cn/) | [GitHub Pages](https://endfield-calc.github.io/)
+  - 终末地量化计算器
 
 ## 贡献
 
