@@ -1,5 +1,5 @@
-import type { ProjectId, Website } from './props';
-import type { Language } from './locale';
+import type { Category, ProjectId, Website } from './fields';
+import type { Language } from './locales';
 
 /**
  * @description The properties of a project
@@ -31,7 +31,7 @@ export interface ProjectProps {
   /**
    * @description The category of the project
    */
-  category: string;
+  category: Category;
   /**
    * @description Tags related to the project
    */

@@ -1,4 +1,4 @@
 export * from './constants';
-export * from './locale';
+export * from './locales';
 export * from './project';
-export * from './props';
+export * from './fields';

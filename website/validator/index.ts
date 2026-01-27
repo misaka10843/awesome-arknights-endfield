@@ -6,7 +6,7 @@ import { ProjectListSchema } from './schema';
  * @param json The array to validate
  * @returns true if valid, false otherwise
  */
-export function validateProjects(json: unknown): json is Project[] {
+export function validateProjects(json: unknown): json is Array<Project> {
   try {
     ProjectListSchema.parse(json);
     return true;
@@ -21,6 +21,6 @@ export function validateProjects(json: unknown): json is Project[] {
  * @returns Parsed project array
  * @throws ZodError with validation details if invalid
  */
-export function parseProjects(json: unknown): Project[] {
+export function parseProjects(json: unknown): Array<Project> {
   return ProjectListSchema.parse(json);
 }
