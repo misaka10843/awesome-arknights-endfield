@@ -3,6 +3,8 @@ import { fileURLToPath } from 'node:url';
 import chalk from 'chalk';
 import { prettifyError, type ZodError } from 'zod';
 import { parseProjects } from '@/validator';
+import { filterValidProjects, sortProjectsById } from '@/helpers';
+import type { Project } from '@/shared';
 
 interface ParsedArgs {
   filePath: string;
@@ -133,6 +135,26 @@ function validateWithZod(json: any): void {
   }
 }
 
+function validateId(projects: Array<Project>): void {
+  const validProjects = filterValidProjects(projects);
+  const projectCount = validProjects.length;
+  const sortedProjects = sortProjectsById(validProjects);
+
+  console.info(chalk.bold.blue('> Validating project id...'));
+  console.info(chalk.dim(`  Last id: ${projectCount}`));
+
+  const lastId = sortedProjects.at(-1)!.id;
+  if (lastId !== projectCount) {
+    console.error(chalk.bold.red('✗ Project id validation failed\n'));
+    console.error(
+      chalk.red(`Last id: ${lastId}, expected id: ${projectCount}\n`)
+    );
+    process.exit(1);
+  }
+
+  console.info(chalk.bold.green('✓ Validation successful\n'));
+}
+
 function main() {
   // Parse command line arguments
   const { filePath, showHelp } = parseArgs();
@@ -151,6 +173,9 @@ function main() {
 
   // Validate with Zod (exit if fails)
   validateWithZod(jsonContent);
+
+  // Validate ID (exit if fails)
+  validateId(jsonContent);
 
   // All stages passed
   console.info(chalk.bold.green('✓ All validation stages passed'));
