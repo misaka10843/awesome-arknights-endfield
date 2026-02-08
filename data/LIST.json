@@ -537,5 +537,99 @@
     "id": 21,
     "addedAt": "2026-02-06",
     "openSource": true
+  },
+  {
+    "name": "cmyyx/endfield-essence-planner",
+    "description": {
+      "en-US": "A web tool for planning essence farming and recommending multi-weapon co-farming strategies for Arknights: Endfield.",
+      "zh-CN": "终末地基质规划器，帮助玩家规划基质刷取并推荐多武器共刷策略。"
+    },
+    "repository": "https://github.com/cmyyx/endfield-essence-planner",
+    "website": [
+      {
+        "provider": "Custom",
+        "url": "https://end.canmoe.com"
+      }
+    ],
+    "author": {
+      "name": "cmyyx",
+      "url": "https://github.com/cmyyx"
+    },
+    "category": "Materials & Resources",
+    "tags": [
+      "Essence",
+      "Weapon"
+    ],
+    "id": 22,
+    "addedAt": "2026-02-08",
+    "openSource": true,
+    "license": "GNU Affero General Public License v3.0"
+  },
+  {
+    "name": "djkcyl/D.I.G.E.",
+    "description": {
+      "en-US": "An optimization tool that automatically calculates optimal power generation solutions for thermal pools in Arknights: Endfield's AIC system.",
+      "zh-CN": "帝江号严选精细化集成工业系统能源生产及存储管理系统设计器。一个用于计算明日方舟：终末地中热能池最优发电方案的工具。"
+    },
+    "repository": "https://github.com/djkcyl/D.I.G.E.",
+    "website": [
+      {
+        "provider": "Custom",
+        "url": "https://dige.aunly.cn"
+      }
+    ],
+    "author": {
+      "name": "djkcyl",
+      "url": "https://github.com/djkcyl"
+    },
+    "category": "Materials & Resources",
+    "tags": [
+      "Calculator",
+      "Factory"
+    ],
+    "id": 23,
+    "addedAt": "2026-02-08",
+    "openSource": true,
+    "license": "MIT License"
+  },
+  {
+    "name": "ok-oldking/ok-end-field",
+    "description": {
+      "en-US": "An image-recognition-based automation tool for End Field, with background mode support, developed with ok-script.",
+      "zh-CN": "一个基于图像识别的终末地自动化程序，支持后台运行，基于 ok-script 开发。"
+    },
+    "repository": "https://github.com/ok-oldking/ok-end-field",
+    "author": {
+      "name": "ok-oldking",
+      "url": "https://github.com/ok-oldking"
+    },
+    "category": "Auxiliary Tools",
+    "tags": [
+      "Automation"
+    ],
+    "id": 24,
+    "addedAt": "2026-02-08",
+    "openSource": true
+  },
+  {
+    "name": "daydreamer-json/ak-endfield-api-archive",
+    "description": {
+      "en-US": "Automated API response archive monitoring changes to Arknights: Endfield APIs, providing a download library for game packages, patches, and resources.",
+      "zh-CN": "自动化 API 响应存档，监控明日方舟：终末地 API 变化，提供游戏包、补丁和资源的下载库。"
+    },
+    "repository": "https://github.com/daydreamer-json/ak-endfield-api-archive",
+    "author": {
+      "name": "daydreamer-json",
+      "url": "https://github.com/daydreamer-json"
+    },
+    "category": "Auxiliary Tools",
+    "tags": [
+      "API",
+      "Archive"
+    ],
+    "id": 25,
+    "addedAt": "2026-02-08",
+    "openSource": true,
+    "license": "GNU Affero General Public License v3.0"
   }
 ]

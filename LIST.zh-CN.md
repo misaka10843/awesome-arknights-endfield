@@ -44,6 +44,12 @@
   - [Vercel](https://ak-endfield-puzzle.vercel.app/)
   - 终末地拼图解谜工具
 
+- [ok-oldking/ok-end-field](https://github.com/ok-oldking/ok-end-field)
+  - 一个基于图像识别的终末地自动化程序，支持后台运行，基于 ok-script 开发。
+
+- [daydreamer-json/ak-endfield-api-archive](https://github.com/daydreamer-json/ak-endfield-api-archive)
+  - 自动化 API 响应存档，监控明日方舟：终末地 API 变化，提供游戏包、补丁和资源的下载库。
+
 ## 综合网站
 
 - [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)
@@ -77,6 +83,14 @@
 - [yawarakatai/endfield-production-planner](https://github.com/yawarakatai/endfield-production-planner)
   - [GitHub Pages](https://yawarakatai.github.io/endfield-production-planner/)
   - 终末地生产计划器
+
+- [cmyyx/endfield-essence-planner](https://github.com/cmyyx/endfield-essence-planner)
+  - [主页](https://end.canmoe.com)
+  - 终末地基质规划器，帮助玩家规划基质刷取并推荐多武器共刷策略。
+
+- [djkcyl/D.I.G.E.](https://github.com/djkcyl/D.I.G.E.)
+  - [主页](https://dige.aunly.cn)
+  - 帝江号严选精细化集成工业系统能源生产及存储管理系统设计器。一个用于计算明日方舟：终末地中热能池最优发电方案的工具。
 
 ## 作品集
 

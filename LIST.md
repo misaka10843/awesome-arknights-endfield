@@ -44,6 +44,12 @@
   - [Vercel](https://ak-endfield-puzzle.vercel.app/)
   - Endfield puzzle solving tool.
 
+- [ok-oldking/ok-end-field](https://github.com/ok-oldking/ok-end-field)
+  - An image-recognition-based automation tool for End Field, with background mode support, developed with ok-script.
+
+- [daydreamer-json/ak-endfield-api-archive](https://github.com/daydreamer-json/ak-endfield-api-archive)
+  - Automated API response archive monitoring changes to Arknights: Endfield APIs, providing a download library for game packages, patches, and resources.
+
 ## General Websites
 
 - [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)
@@ -77,6 +83,14 @@
 - [yawarakatai/endfield-production-planner](https://github.com/yawarakatai/endfield-production-planner)
   - [GitHub Pages](https://yawarakatai.github.io/endfield-production-planner/)
   - Endfield production planner.
+
+- [cmyyx/endfield-essence-planner](https://github.com/cmyyx/endfield-essence-planner)
+  - [Home Page](https://end.canmoe.com)
+  - A web tool for planning essence farming and recommending multi-weapon co-farming strategies for Arknights: Endfield.
+
+- [djkcyl/D.I.G.E.](https://github.com/djkcyl/D.I.G.E.)
+  - [Home Page](https://dige.aunly.cn)
+  - An optimization tool that automatically calculates optimal power generation solutions for thermal pools in Arknights: Endfield's AIC system.
 
 ## Portfolios
 

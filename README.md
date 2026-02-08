@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-21-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-25-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -46,24 +46,23 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [zigotan/endfield-schedule](https://github.com/zigotan/endfield-schedule)
-  - [Vercel](https://endfield-schedule.vercel.app/)
-  - Arknights: Endfield event calendar.
-
-- [vvhusbyudust/ArknightsEndfieldGachaStrategiesCompare](https://github.com/vvhusbyudust/ArknightsEndfieldGachaStrategiesCompare)
-  - Gacha strategy simulation script.
-
-- [mark9804/endfield-gacha-calculator](https://github.com/mark9804/endfield-gacha-calculator)
-  - [Vercel](https://endfield-gacha-calculator.vercel.app/)
-  - Arknights: Endfield gacha calculator.
-
-- [yawarakatai/endfield-production-planner](https://github.com/yawarakatai/endfield-production-planner)
-  - [GitHub Pages](https://yawarakatai.github.io/endfield-production-planner/)
-  - Endfield production planner.
-
 - [SihenZhang/ak-endfield-puzzle](https://github.com/SihenZhang/ak-endfield-puzzle)
   - [Vercel](https://ak-endfield-puzzle.vercel.app/)
   - Endfield puzzle solving tool.
+
+- [cmyyx/endfield-essence-planner](https://github.com/cmyyx/endfield-essence-planner)
+  - [Home Page](https://end.canmoe.com)
+  - A web tool for planning essence farming and recommending multi-weapon co-farming strategies for Arknights: Endfield.
+
+- [djkcyl/D.I.G.E.](https://github.com/djkcyl/D.I.G.E.)
+  - [Home Page](https://dige.aunly.cn)
+  - An optimization tool that automatically calculates optimal power generation solutions for thermal pools in Arknights: Endfield's AIC system.
+
+- [ok-oldking/ok-end-field](https://github.com/ok-oldking/ok-end-field)
+  - An image-recognition-based automation tool for End Field, with background mode support, developed with ok-script.
+
+- [daydreamer-json/ak-endfield-api-archive](https://github.com/daydreamer-json/ak-endfield-api-archive)
+  - Automated API response archive monitoring changes to Arknights: Endfield APIs, providing a download library for game packages, patches, and resources.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).
