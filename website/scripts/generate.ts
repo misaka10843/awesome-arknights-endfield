@@ -6,6 +6,32 @@ import { CATEGORY_LABEL, LANGUAGES, WEBSITE_PROVIDER_LABEL } from '@/shared';
 import type { Category, Language, Project } from '@/shared';
 import data from '../../data/LIST.json';
 
+/**
+ * @description Slugify a string, based on https://github.com/yzhang-gh/vscode-markdown/blob/master/src/util/slugify.ts
+ * @see https://github.com/yzhang-gh/vscode-markdown
+ * @license MIT
+ */
+function slugify(text: string): string {
+  /**
+   * The definition of punctuation from GitHub and GitLab.
+   *
+   * Converted from Ruby regular expression `/[^\p{Word}\- ]/u`
+   * `\p{Word}` => Letter (Ll/Lm/Lo/Lt/Lu), Mark (Mc/Me/Mn), Number (Nd/Nl), Connector_Punctuation (Pc)
+   * It's weird that Ruby's `\p{Word}` actually does not include Category No.
+   * https://ruby-doc.org/core/Regexp.html
+   * https://rubular.com/r/ThqXAm370XRMz6
+   */
+  const REGEXP_GITHUB_PUNCTUATION = /[^\p{L}\p{M}\p{Nd}\p{Nl}\p{Pc}\- ]/gu;
+
+  // According to an inspection in 2020-12, GitHub passes the raw content as is,
+  // and does not trim leading or trailing C0, Zs characters in any step.
+  // <https://github.com/jch/html-pipeline/blob/master/lib/html/pipeline/toc_filter.rb>
+  return text
+    .replace(REGEXP_GITHUB_PUNCTUATION, '')
+    .toLowerCase() // According to an inspection in 2020-09, GitHub performs full Unicode case conversion now.
+    .replace(/ /g, '-');
+}
+
 /////////////////////////////////// Builder ///////////////////////////////////
 
 const LINE_BREAK = '\n';
@@ -28,7 +54,14 @@ function generateHeading(title: string, level: number = 2) {
   return String.prototype.concat(`${'#'.repeat(hashtag)} ${title}`, LINE_BREAK);
 }
 
-function generateProject(project: Project, lang: Language) {
+function generateToc(headers: Array<string>) {
+  return headers
+    .map((header) => `- [${header}](#${slugify(header).toLowerCase()})`)
+    .join(LINE_BREAK)
+    .concat(LINE_BREAK);
+}
+
+function generateProject(lang: Language, project: Project) {
   const blocks: Array<string> = [];
 
   const name = project.repository
@@ -106,7 +139,7 @@ function updateReadmeRecentProjects(lang: Language, projects: Array<Project>) {
 
   // Generate recent projects section
   const recentSection = projects
-    .map((project) => generateProject(project, lang))
+    .map((project) => generateProject(lang, project))
     .join('');
 
   // Replace content between RECENT_START and RECENT_END
@@ -139,12 +172,17 @@ function generateList(lang: Language, projects: Array<Project>) {
     {} as Record<Category, Array<Project>>
   );
 
+  doc += generateToc(
+    Object.keys(groups).map((category) => CATEGORY_LABEL[category as Category][lang])
+  );
+  doc += LINE_BREAK;
+
   for (const [category, projects] of Object.entries(groups)) {
     doc += generateHeading(CATEGORY_LABEL[category as Category][lang]);
     doc += LINE_BREAK;
 
     projects.forEach((project) => {
-      doc += generateProject(project, lang);
+      doc += generateProject(lang, project);
     });
   }
 
