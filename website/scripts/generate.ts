@@ -1,10 +1,10 @@
 import { readFileSync, writeFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 import chalk from 'chalk';
 import { filterValidProjects, sortProjectsById } from '@/helpers';
 import { CATEGORY_LABEL, LANGUAGES, WEBSITE_PROVIDER_LABEL } from '@/shared';
 import type { Category, Language, Project } from '@/shared';
-import data from '../../data/LIST.json';
 
 /**
  * @description Slugify a string, based on https://github.com/yzhang-gh/vscode-markdown/blob/master/src/util/slugify.ts
@@ -113,6 +113,11 @@ function updateReadmeBadge(lang: Language, count: number) {
 
   const fileName = README_MAP[lang];
   const readmeFile = resolve(PROJECT_ROOT, fileName);
+
+  console.info(chalk.bold.blue('> Updating badge count...'));
+  console.info(chalk.dim(`  File: ${fileName}`));
+  console.info(chalk.dim(`  Count: ${count}`));
+
   let content = readFileSync(readmeFile, 'utf-8');
 
   // Replace content between BADGE_COUNT_START and BADGE_COUNT_END
@@ -124,9 +129,9 @@ function updateReadmeBadge(lang: Language, count: number) {
     );
 
     writeFileSync(readmeFile, content, 'utf-8');
-    console.log(chalk.green(`Successfully updated badge count in ${fileName}`));
+    console.info(chalk.green('✓ Badge count updated successfully\n'));
   } else {
-    console.log(chalk.yellow(`Badge markers not found in ${fileName}`));
+    console.error(chalk.yellow('⚠ Badge markers not found\n'));
   }
 }
 
@@ -135,6 +140,11 @@ function updateReadmeRecentProjects(lang: Language, projects: Array<Project>) {
 
   const fileName = README_MAP[lang];
   const readmeFile = resolve(PROJECT_ROOT, fileName);
+
+  console.info(chalk.bold.blue('> Updating recent projects...'));
+  console.info(chalk.dim(`  File: ${fileName}`));
+  console.info(chalk.dim(`  Projects: ${projects.length}`));
+
   let content = readFileSync(readmeFile, 'utf-8');
 
   // Generate recent projects section
@@ -150,13 +160,16 @@ function updateReadmeRecentProjects(lang: Language, projects: Array<Project>) {
     );
 
     writeFileSync(readmeFile, content, 'utf-8');
-    console.log(chalk.green(`Successfully updated recent projects in ${fileName}`));
+    console.info(chalk.green('✓ Recent projects updated successfully\n'));
   } else {
-    console.log(chalk.yellow(`Recent markers not found in ${fileName}`));
+    console.error(chalk.yellow('⚠ Recent markers not found\n'));
   }
 }
 
 function generateList(lang: Language, projects: Array<Project>) {
+  console.info(chalk.bold.blue('> Generating list...'));
+  console.info(chalk.dim(`  Language: ${lang}`));
+
   let doc = generateBanner();
   doc += LINE_BREAK;
 
@@ -194,20 +207,30 @@ function generateList(lang: Language, projects: Array<Project>) {
 
   writeFileSync(outputFile, doc, 'utf-8');
 
-  console.log(chalk.green(`Successfully generated ${fileName}`));
+  console.info(chalk.green('✓ List generated successfully\n'));
 }
 
 const RECENT_COUNT = 5;
 
+const DEFAULT_PATH = fileURLToPath(new URL('../../data/LIST.json', import.meta.url));
+
 function main() {
+  console.info(chalk.bold.blue('> Loading data...'));
+  console.info(chalk.dim(`  File path: ${DEFAULT_PATH}`));
+  const fileContent = readFileSync(DEFAULT_PATH, 'utf-8');
+  const data = JSON.parse(fileContent);
   const validProjects = filterValidProjects(data as Array<Project>);
   const sortedProjects = sortProjectsById(validProjects);
+  console.info(chalk.dim(`  Valid projects: ${validProjects.length}`));
+  console.info(chalk.green('✓ Data loaded successfully\n'));
 
   for (const lang of LANGUAGES) {
     generateList(lang, sortedProjects);
     updateReadmeBadge(lang, validProjects.length);
     updateReadmeRecentProjects(lang, sortedProjects.slice(-RECENT_COUNT));
   }
+
+  console.info(chalk.bold.green('✓ All generation stages passed'));
 }
 
 main();

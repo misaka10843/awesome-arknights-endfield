@@ -146,10 +146,34 @@ function validateId(projects: Array<Project>): void {
   const lastId = sortedProjects.at(-1)!.id;
   if (lastId !== projectCount) {
     console.error(chalk.bold.red('✗ Project id validation failed\n'));
-    console.error(
-      chalk.red(`Last id: ${lastId}, expected id: ${projectCount}\n`)
-    );
+    console.error(chalk.red(`Last id: ${lastId}, expected id: ${projectCount}\n`));
     process.exit(1);
+  }
+
+  console.info(chalk.bold.green('✓ Validation successful\n'));
+}
+
+function validateDuplicates(projects: Array<Project>): void {
+  console.info(chalk.bold.blue('> Validating duplicates...'));
+  console.info(chalk.dim(`  Total entries: ${projects.length}`));
+
+  const uniqueIds: Set<number> = new Set();
+  const uniqueProjects: Set<string> = new Set();
+
+  for (const project of projects) {
+    if (!uniqueIds.has(project.id)) {
+      uniqueIds.add(project.id);
+    } else {
+      console.error(chalk.bold.red(`✗ Duplicate id: ${project.id}\n`));
+      process.exit(1);
+    }
+
+    if (!uniqueProjects.has(project.name)) {
+      uniqueProjects.add(project.name);
+    } else {
+      console.error(chalk.bold.red(`✗ Duplicate project: ${project.name}\n`));
+      process.exit(1);
+    }
   }
 
   console.info(chalk.bold.green('✓ Validation successful\n'));
@@ -176,6 +200,9 @@ function main() {
 
   // Validate ID (exit if fails)
   validateId(jsonContent);
+
+  // Check duplicates (exit if fails)
+  validateDuplicates(jsonContent);
 
   // All stages passed
   console.info(chalk.bold.green('✓ All validation stages passed'));
